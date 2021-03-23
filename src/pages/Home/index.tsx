@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../../components/Card'
 
 import {
     Container,
@@ -7,7 +8,7 @@ import {
 const Home:React.FC = () => {
     return (
         <Container>
-            <h1>Home</h1>
+            <Card />
         </Container>
     )
 }
