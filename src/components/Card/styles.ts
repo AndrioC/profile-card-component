@@ -28,6 +28,7 @@ export const Profile = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: -48px;
+    flex-direction: column;s
 
     img {
         width: 96px;
@@ -35,4 +36,36 @@ export const Profile = styled.div`
         border-radius: 46px;
         border: 5px solid #fff;
     }
+
+    p {
+        font-size: 14px;    
+        color: #6B7082;
+        margin-top: 9px;
+        font-weight: 400;
+    }
+`;
+
+export const ProfileInfo = styled.div`
+    display: flex;
+
+    h1{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 24px;
+    }
+
+    p {
+        margin-top: 25px;
+        font-size: 18px;
+        color: #6B7082;
+        font-weight: lighter;
+        margin-left: 9px;
+    }
+`;
+
+export const Line = styled.div`
+    background: #E8E9EC;
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
 `;

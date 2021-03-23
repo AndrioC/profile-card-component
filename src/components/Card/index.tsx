@@ -4,7 +4,9 @@ import {
     Container,
     CardContainer,
     TopCard,
-    Profile
+    Profile,
+    ProfileInfo,
+    Line,
 } from './styles'
 
 import bgCartTop from '../../assets/bg-pattern-card.svg'
@@ -19,8 +21,15 @@ const Card:React.FC = () => {
                 </TopCard>
                 <Profile>
                     <img src={profileImg} alt="profile-img"/>
+                    <ProfileInfo>
+                        <h1>Victor Crest</h1>
+                        <p>26</p>
+                    </ProfileInfo>
+                    <p>London</p>
                 </Profile>
-                
+
+                <Line />
+
 
             </CardContainer>
         </Container>
