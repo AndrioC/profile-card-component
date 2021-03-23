@@ -10,6 +10,7 @@ export const CardContainer = styled.div`
     width: 350px;
     border-radius: 15px;
     flex-direction: column;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
 `;
 
 export const TopCard = styled.div`
