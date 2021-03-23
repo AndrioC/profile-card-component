@@ -28,7 +28,7 @@ export const Profile = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: -48px;
-    flex-direction: column;s
+    flex-direction: column;
 
     img {
         width: 96px;
