@@ -1,6 +1,16 @@
 # Profile Card Component - Challenge
 
-Hello, this project was created to complete the frontendmentor challenge. Feel free to use it as your guide. Below I'll show you how you can use it on your PC. 
+Hello, this project was created to complete the frontendmentor challenge. Feel free to use it as your guide. Below I'll show you how you can use it on your PC. But first, take a look at the images of the project.
+
+<h1>
+    <p>Desktop version</p>
+    <img src="public/completed-project-desktop.png">
+</h1>
+
+<h1>
+    <p>Mobile version</p>
+    <img src="public/completed-project-mobile.png">
+</h1>
 
 ## :desktop_computer: Available Scripts
 
@@ -17,4 +27,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## :fire: Technologies
 
+This project was built using the following techs:
+
+- ReactJS.
+- TypeScript.
+- Styled Components.
