@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
+import topBackground from '../assets/bg-pattern-top.svg'
+import bottomBackground from '../assets/bg-pattern-bottom.svg'
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -19,19 +21,12 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html {
-        @media(max-width: 1080px){
-            font-size: 93.75%;
-        }
-
-        @media(max-width: 720px){
-            font-size: 87.5%;
-        }
-    }
-
     body {
-        background: var(--background);
+        background-color: var(--background);
         -webkit-font-smoothing: antialiased;
+        background-image: url(${topBackground}), url(${bottomBackground});
+        background-repeat: no-repeat;
+        background-position: bottom -50vh right 50vw, top 50vh left 50vw;
     }
 
     body, input, textarea, button {

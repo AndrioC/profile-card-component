@@ -30,6 +30,7 @@ const Card:React.FC = () => {
 
                 <Line />
 
+                
 
             </CardContainer>
         </Container>
