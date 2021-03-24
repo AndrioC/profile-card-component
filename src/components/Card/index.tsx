@@ -7,6 +7,7 @@ import {
     Profile,
     ProfileInfo,
     Line,
+    ExtraInfo,
 } from './styles'
 
 import bgCartTop from '../../assets/bg-pattern-card.svg'
@@ -30,7 +31,22 @@ const Card:React.FC = () => {
 
                 <Line />
 
-                
+                <ExtraInfo>
+                    <ul>
+                        <li>
+                            <h1>80K</h1>
+                            <p>Followers</p>
+                        </li>
+                        <li>
+                            <h1>803K</h1>
+                            <p>Likes</p>
+                        </li>
+                        <li>
+                            <h1>1.4K</h1>
+                            <p>Photos</p>
+                        </li>
+                    </ul>    
+                </ExtraInfo>
 
             </CardContainer>
         </Container>

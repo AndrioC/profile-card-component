@@ -69,3 +69,34 @@ export const Line = styled.div`
     height: 1px;
     margin-top: 30px;
 `;
+
+export const ExtraInfo = styled.div`
+    margin-top: 24px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 47px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 18px;
+                color: #6B7082;
+                font-size: 13px;
+                margin-top: 9px;
+            }
+        }
+
+    }
+`;
